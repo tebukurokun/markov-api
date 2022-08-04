@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "markov-api"
+version = "0.1.0"
+description = ""
+authors = ["tebukuro <58774766+tebukurokun@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.79.0"
+uvicorn = "^0.18.2"
+pydantic = "^1.9.1"
+mecab-python3 = "^1.0.5"
+markovify = "^0.9.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
